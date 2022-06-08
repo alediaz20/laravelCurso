@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container py-5 text-center">
-        <h1>Listado de clientes</h1>
+        <h1 class="text-white">Listado de clientes</h1>
         <div class="text-end">
             <a href="{{ route('client.create')}}" class="btn btn-primary mb-3"> Crear cliente </a>
         </div>
@@ -13,7 +13,7 @@
             </div>
         @endif
 
-        <table class="table table-light">
+        <table class="table table-dark table-borderless table-responsive">
             <thead class="thead-light">
                 <tr>
                     <th>Nombre</th>
